@@ -1,0 +1,55 @@
+body {
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    font-family: Consolas, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    border: 1px solid #444444;
+    padding: 12px;
+    width: 250px;
+    max-width: 90%;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: normal;
+    color: #59c8ff;
+}
+
+textarea {
+    background-color: #111111;
+    color: #e0e0e0;
+    border: 1px solid #59c8ff;
+    font-family: Consolas, monospace;
+    padding: 10px;
+}
+
+#terminal {
+    background-color: #111111;
+    border: 1px solid #444444;
+    height: 600px;
+    width: 600px;
+    max-width: 90%;
+    box-sizing: border-box;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.command-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#command {
+    background: transparent;
+    border:none;
+    outline: none;
+    color: #e0e0e0;
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    flex: 1;
+}
